@@ -1,3 +1,5 @@
+import Feed from "@components/Feed";
+
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
@@ -11,6 +13,8 @@ const Home = () => {
         blog, social media, and more. It uses AI to generate content ideas based
         on your input.
       </p>
+      {/* Feed */}
+      <Feed/>
     </section>
   );
 };
